@@ -18,7 +18,8 @@ connectDB();
 app.use(cors({
   origin: function (origin, callback) {
     const allowedOrigins = [
-      "https://thumblifyabi.netlify.app"
+      "https://thumblifyabi.netlify.app",
+      "http://localhost:5173",
     ];
 
     // allow requests with no origin (like Postman)
